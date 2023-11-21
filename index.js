@@ -64,9 +64,9 @@ run().catch(console.dir);
 
 app.get('/', (req, res) => {
     res.send(`<h1 style="text-align:center">Bistro Is Running...</h1>
-    <h2><a href='http://localhost:5000/menu'>menu</a></h2>
-    <h2><a href='http://localhost:5000/reviews'>reviews</a></h2>
-    <h2><a href='http://localhost:5000/carts'>carts</a></h2>`)
+    <h2 style="text-align:center"><a href='http://localhost:5000/menu'>menu</a></h2>
+    <h2 style="text-align:center"><a href='http://localhost:5000/reviews'>reviews</a></h2>
+    <h2 style="text-align:center"><a href='http://localhost:5000/carts'>carts</a></h2>`)
 })
 
 app.listen(port, () => {
